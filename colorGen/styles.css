@@ -1,0 +1,99 @@
+/* Set the font and default text color */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333333;
+  }
+  
+  /* Set the background color to white */
+  body {
+    background-color: #ffffff;
+  }
+  
+  /* Center the content on the screen */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  /* Style the input forms */
+  form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  /* Style the input fields */
+  input[name="cyan"],
+  input[name="magenta"],
+  input[name="yellow"],
+  input[name="key"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* Style the submit button */
+  button[type="button"] {
+    display: block;
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #444444;
+  }
+
+  /* Style the card element */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  float: left;
+}
+
+/* Style the card container */
+.card-container {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  justify-content: center;
+}
+
+/* Style the form grid */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* Style the grid items (input fields and labels) */
+.grid-item {
+  display: flex;
+  align-items: center;
+}
+
+.grid-item label {
+  width: 100%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.grid-item input[type="number"] {
+  width: 50%;
+}
