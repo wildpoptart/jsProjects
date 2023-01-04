@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CMYK Color Input</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <form id="cmykForm">
+        <div class="form-grid">
+          <label class="grid-item">Cyan: <input type="number" name="cyan" min="0" max="100" step="1" value="0"></label>
+          <label class="grid-item">Magenta: <input type="number" name="magenta" min="0" max="100" step="1" value="0"></label>
+          <label class="grid-item">Yellow: <input type="number" name="yellow" min="0" max="100" step="1" value="0"></label>
+          <label class="grid-item">Key (Black): <input type="number" name="key" min="0" max="100" step="1" value="0"></label>
+        </div>
+        <button type="button" onclick="generateCard()">Generate Card</button>
+      </form>
+    </div>
+    <div id="cardContainer" class="card-container">
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
